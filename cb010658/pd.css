@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+
+body {
+    background-image: url(./actibg.jpg);
+    color: white;
+}
+
+  .hero{
+    width: 99%;
+    height: 60vh;
+    background-image: url(./sp1.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+  }
+
+.content{
+    color:white;
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+.content h1{
+    font-size: 60px;
+}
+.side-bar{
+    width: 80px;
+    height: 60vh;
+    background: plum;
+    position: absolute;
+    right: 0;
+    top: 0;
+
+}
+.content3{
+    flex: 1;
+    text-align: right;
+
+}
+.content3 ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px ;
+    position: relative;
+
+}
+.content3 ul a{
+    color: white;
+    text-decoration: none;
+    font-size: 12px
+    
+    
+}
+.content3 ul li a:hover{
+    color: rgb(8, 8, 8);
+
+}
+.content3 ul li .active{
+    color: rgb(18, 18, 19);
+
+}
+
+.content1 h2{
+    font-size: 35px;
+    text-align: center;
+font-style: italic;
+padding-top: 20px;
+}
+.content1 img{
+    width: 400px;
+    height: 50vh;
+    padding-left: 36%;
+    padding-top: 20px;
+}
+.map{
+    width: 400px;
+    height: 60vh;
+    padding-top: 30px;
+    padding-left: 36%;
+}
+.content2 h3{
+    font-size: 35px;
+    text-align: center;
+font-style: italic;
+padding-top: 20px;
+}
+.content2 img{
+    width: 400px;
+    height: 50vh;
+    padding-left: 36%;
+    padding-top: 20px;
+}
+.map2{
+    width: 400px;
+    height: 60vh;
+    padding-top: 30px;
+    padding-left: 36%;
+}
+
+@media(max-width:700px){
+    .content h1{
+        font-size: 14px;
+    }
+    .content3 ul a{
+        color: white;
+        text-decoration: none;
+        font-size: 10px
+        
+        
+    }
+    .hero{
+        width: 99%;
+        height: 50vh;
+    }
+    .side-bar{
+        width: 80px;
+        height: 50vh;
+        padding-left: 10%;
+    }
+    .content1 h2{
+        font-size: 20px;
+        text-align: center;
+    font-style: italic;
+    padding-top: 20px;
+    }
+    .content1 img{
+        width: 160px;
+        height: 30vh;
+        padding-left:  10%;
+        padding-top: 20px;
+    }
+    .map{
+        width: 180px;
+        height: 30vh;
+        padding-top: 30px;
+        padding-left: 10%;
+    }
+    .content2 h3{
+        font-size: 20px;
+        text-align: center;
+    font-style: italic;
+    padding-top: 20px;
+    }
+    .content2 img{
+        width: 180px;
+        height: 30vh;
+        padding-left:  10%;
+        padding-top: 20px;
+    }
+    .map2{
+        width: 180px;
+        height: 30vh;
+        padding-top: 30px;
+        padding-left: 10%;
+    }
+}
+

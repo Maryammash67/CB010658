@@ -1,0 +1,171 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  color: white;
+}
+body{
+  background-image: url(./actibg.jpg);
+  color: white;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero{
+  width: 99%;
+  height: 55vh;
+  background-image: url(./acti.jpeg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+  background-color: teal;
+}
+
+.content{
+  color:white;
+  position: absolute;
+  top: 60%;
+  left: 10%;
+  transform: translateY(-50%);
+  z-index: 2;
+  font-size: 40px;
+}
+  
+
+  .intro{
+      text-align: center;
+      font-size: 20px;
+  }
+    .intro h2{
+        font-size: 40px;
+      color: brown;
+    }
+    .container2{
+      text-align: center;
+      font-size: 20px;
+    }
+    .container2 h3{
+         font-size: 28px;
+        
+    }
+    .container2 p{
+        text-align: left;
+    }
+    .container3 {
+      text-align: center;
+      font-size: 20px;
+      height: 800px;
+    }
+  
+    .container3 h{
+      font-size: 28px;
+    }
+  
+  .container4{
+    text-align: center;
+      font-size: 20px;
+     height: 800px;
+  }
+  
+  .container4 h5{
+    font-size: 28px;}
+    
+    .container2 p{
+      text-align: justify;
+      height:800px;
+       width: 300px;
+       padding-left: 40%;
+       font-weight: bold;
+       padding-bottom: 20px;
+    }
+    .container3 p{
+      text-align: justify;
+      height:400px;
+      width: 300px;
+      padding-left: 40%;
+      font-weight: bold;
+    }
+    .container4 p{
+      text-align: justify;
+      height:400px;
+       width: 300px;
+     padding-left: 40%;
+     font-weight: bold;
+    }
+  .container2 img{
+  width: 30%;
+  height: 30%;
+  }
+  .container3 img{
+    width: 30%;
+    height: 30%;
+    }
+    .container4 img{
+      width: 30%;
+      height: 30%;
+      }
+  
+  .intro h1{
+    font-size: 40px bold;
+    text-align: center;
+    
+  }
+  @media(max-width:700px){
+   
+  .intro h2{
+      font-size: 40px bold;
+      text-align: center;
+      padding-bottom: 5px;
+  }  
+  .intro p{
+      font-size: 12px;
+      text-align: justify;
+      width: 250px;
+  }
+  .hero{
+      width: 99%;
+      height: 50vh;
+     
+  }
+  h1{
+      font-size: 30px;
+      margin: 10px 0 20px;
+      line-height: 50px;
+  }
+  .container2 h3{
+      font-size: 20px;
+      padding-top: 10px;
+     
+ }
+ .container2 p{
+  text-align: justify;
+  height:300px;
+   width: 250px;
+ padding-left: 10%;
+ font-weight: bold;
+ font-size: 12px;
+}
+.container3 p{
+  text-align: justify;
+  height:300px;
+  width: 250px;
+  padding-left: 10%;
+  font-weight: bold;
+  font-size: 12px;
+}
+.container4 p{
+  text-align: justify;
+  height:500px;
+   width: 250px;
+ padding-left: 10%;
+ font-weight: bold;
+ font-size: 12px;
+}
+}
+.footer p{
+  background:black;
+  color: aliceblue;
+  text-align: center;
+  padding-top: 20px;
+}

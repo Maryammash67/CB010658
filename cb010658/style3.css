@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+   
+}
+.slidder img{
+    
+    width: 400px;
+    height: 400px;
+   
+  margin: 100px auto;
+  animation: slide 20s infinite;
+  
+    
+}
+@keyframes slide{
+    25%{
+        background: url(two.jpg);
+    }
+    50%{
+        background: url(three.jpg);
+    }
+    75%{
+        background: url(four.jpg);
+    }
+    100%{
+        background: url(five.jpg);
+    }
+}

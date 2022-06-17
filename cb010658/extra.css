@@ -1,0 +1,22 @@
+table{
+    width: 800px;
+    border-spacing: 5px;
+}
+th{
+    text-align: left;
+    color: rgb(22, 22, 158);
+}
+table, th, td{
+    border: 2px  solid black;
+}
+ th, td{
+  padding: 5px;
+ }
+ caption{
+     text-align: center;
+     font-size: 25px;
+     padding: 5px;
+ }
+ tr:nth-child(4){
+     background-color: brown;
+ }

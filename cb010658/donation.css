@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif; 
+  }
+
+  body {
+    background-image: url(./actibg.jpg);
+    color: white;
+}
+
+  .hero{
+    width: 99%;
+    height: 60vh;
+    background-image: url(./donat.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+  }
+
+.content{
+    color:white;
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+.content h1{
+    font-size: 60px;
+}
+.side-bar{
+    width: 80px;
+    height: 60vh;
+    background:brown;
+    position: absolute;
+    right: 0;
+    top: 0;
+
+}
+.content3{
+    flex: 1;
+    text-align: right;
+
+}
+.content3 ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px ;
+    position: relative;
+
+}
+.content3 ul a{
+    color: white;
+    text-decoration: none;
+    font-size: 12px
+    
+    
+}
+.content3 ul li a:hover{
+    color: rgb(8, 8, 8);
+
+}
+.content3 ul li .active{
+    color: rgb(18, 18, 19);
+
+}
+.hard h2{
+    font-size: 50px;
+    padding-top: 40px;
+    padding-left: 60px;
+    color: rgb(170, 103, 78);
+}
+.hard1 h3{
+    font-size: 25px;
+    padding-top: 40px;
+    padding-left: 60px;
+    color: rgb(34, 33, 33);
+}
+.hard1 p{
+    padding-top: 30px;
+   
+    padding-left: 90px;
+    width: 800px;
+    text-align: center;
+}
+.loginbox{
+    width: 300px;
+    height: 450px;
+    color: white;
+    background: black;
+    top: 50%;
+    left: 25%;
+    position: left;
+    padding: 30px 30px;
+    margin: 2% auto;
+    border-radius: 50px;
+    transform: translate(-50%, -50%);
+    margin-top: 350px;
+ 
+}
+.loginbox h1{
+    color: lightblue;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.input-box{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 85%;
+    border: 2px solid lightblue;
+    outline: none;
+}
+button{
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+}
+.login-btn{
+    background-color: lightskyblue;
+}
+
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+@media(max-width:700px){
+    .hero{
+        width: 80%;
+        height: 50vh;
+    }
+    .side-bar{
+        width: 60px;
+        height: 40vh;
+  float: left;
+        
+  
+    }
+    .content3 ul li{
+     float: right;
+     text-align: center;
+    
+    }
+   
+    .content h1{
+        font-size: 14px;
+    }
+    .content3 ul a{
+        color: white;
+        font-size: 10px
+       
+        
+    }
+   
+}
+.footer p{
+    background:black;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 20px;
+}
